@@ -56,16 +56,17 @@ echo "Public_Key_Content" > .ssh/authorized_keys
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/4.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/5.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/6.png)
-- Install SonarQube Plugin and NodeJS
+- Install SonarQube and NodeJS Plugins
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/7.png)
 - Create Token for Jenkins in SonarQube
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/8.png)
 
 - Configure SonarQube Plugin
 
-1- Create Credentials for  SonarQube
+1- Create Credentials for  SonarQube using token created above
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/9.png)
-2-  configure Sonarqube Server Dashboard >> configuration
+
+2-  Configure Sonarqube Server Dashboard >> configuration
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/11.png)
 3- Configure SonarQube Scanner and NodeJS  From Dashboard >> Global tool configuration
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/12.png)
@@ -75,3 +76,16 @@ echo "Public_Key_Content" > .ssh/authorized_keys
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/14.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/15.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/16.png)
+
+
+- Install Multi Branch Plugin
+
+
+```sh
+helm upgrade -f values.yaml  -n sonarqube sonarqube sonarqube/sonarqube \
+ --set "plugins.install={https://github.com/mc1arke/sonarqube-community-branch-plugin/releases/download/1.8.0/sonarqube-community-branch-plugin-1.8.0.jar}" 
+```
+
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/18.png)
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/19.png)
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/20.png)
