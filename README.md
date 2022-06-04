@@ -15,7 +15,7 @@ helm upgrade -f values.yaml  --install -n sonarqube sonarqube sonarqube/sonarqub
 
 - Access SonarQube From The Browser
 ```sh 
-kubectl port-forward  sonarqube-ingress-nginx-controller 8080:9000 -n sonarqube  
+kubectl port-forward  sonarqube-ingress-nginx-controller 8080:80 -n sonarqube  
 ```
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/1.png)
 
