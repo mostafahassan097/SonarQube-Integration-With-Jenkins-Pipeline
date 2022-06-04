@@ -1,0 +1,4 @@
+jenkins/jenkins-home
+test-repo/testRepo/*
+!test-repo/testRepo/Jenkinsfile
+!test-repo/testRepo/sonar-project.properties
