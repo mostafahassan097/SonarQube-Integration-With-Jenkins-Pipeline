@@ -21,7 +21,7 @@ kubectl port-forward  sonarqube-ingress-nginx-controller 8080:9000 -n sonarqube
 
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/2.png)
 
-![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/3.png)
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/3-1.png)
 
 ### Steps To Install Jenknis and Intgrate with Sonar Qube:
 
@@ -52,7 +52,7 @@ mkdir .ssh
 echo "Public_Key_Content" > .ssh/authorized_keys
 ```
 
-![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/3-1.png)
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/3.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/4.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/5.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/6.png)
@@ -62,6 +62,7 @@ echo "Public_Key_Content" > .ssh/authorized_keys
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/8.png)
 
 - Configure SonarQube Plugin
+
 1- Create Credentials for  SonarQube
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/9.png)
 2-  configure Sonarqube Server Dashboard >> configuration
