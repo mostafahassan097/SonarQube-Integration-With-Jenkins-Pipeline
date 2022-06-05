@@ -90,9 +90,7 @@ helm upgrade -f values.yaml  -n sonarqube sonarqube sonarqube/sonarqube \
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/18.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/19.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/20.png)
-<<<<<<< HEAD
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/21.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/22.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/23.png)
-=======
->>>>>>> b1ad9e36235a18785d36ab93919668c8c714d39a
+
