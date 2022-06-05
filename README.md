@@ -1,6 +1,7 @@
 # SonarQube
 ## Install SonarQube Using Helm Chart
 ### Helm:
+-- In This Code Where Using Docker Desktop 
 - Add SonarQube Repository
 ```sh
 helm repo add sonarqube https://SonarSource.github.io/helm-chart-sonarqube
@@ -15,7 +16,7 @@ helm upgrade -f values.yaml  --install -n sonarqube sonarqube sonarqube/sonarqub
 
 - Access SonarQube From The Browser
 ```sh 
-kubectl port-forward  sonarqube-ingress-nginx-controller 8080:9000 -n sonarqube  
+kubectl port-forward  sonarqube-ingress-nginx-controller 8080:80 -n sonarqube  
 ```
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/1.png)
 
@@ -89,6 +90,9 @@ helm upgrade -f values.yaml  -n sonarqube sonarqube sonarqube/sonarqube \
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/18.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/19.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/20.png)
+<<<<<<< HEAD
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/21.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/22.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/23.png)
+=======
+>>>>>>> b1ad9e36235a18785d36ab93919668c8c714d39a
