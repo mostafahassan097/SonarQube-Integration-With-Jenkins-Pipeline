@@ -83,9 +83,12 @@ echo "Public_Key_Content" > .ssh/authorized_keys
 
 ```sh
 helm upgrade -f values.yaml  -n sonarqube sonarqube sonarqube/sonarqube \
- --set "plugins.install={https://github.com/mc1arke/sonarqube-community-branch-plugin/releases/download/1.8.0/sonarqube-community-branch-plugin-1.8.0.jar}" 
+ --set "plugins.install={https://github.com/mc1arke/sonarqube-community-branch-plugin/releases/download/1.11.0/sonarqube-community-branch-plugin-1.11.0.jar}" 
 ```
 
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/18.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/19.png)
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/20.png)
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/21.png)
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/22.png)
+![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/23.png)
