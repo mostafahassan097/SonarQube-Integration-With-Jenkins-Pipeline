@@ -1,7 +1,6 @@
 # SonarQube
 ## Install SonarQube Using Helm Chart
-### Helm:
--- In This Code Where Using Docker Desktop 
+### Helm
 - Add SonarQube Repository
 ```sh
 helm repo add sonarqube https://SonarSource.github.io/helm-chart-sonarqube
