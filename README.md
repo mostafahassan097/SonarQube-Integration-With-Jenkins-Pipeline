@@ -23,11 +23,11 @@ kubectl port-forward  sonarqube-ingress-nginx-controller 8080:80 -n sonarqube
 
 ![Build Status](https://github.com/mostafahassan097/SonarQube-Task/blob/master/Imgs/3-1.png)
 
-### Steps To Install Jenknis and Intgrate with Sonar Qube:
+### Steps To Install Jenkins and Intgrate with SonarQube:
 
 - Apply jenkins resources
 ```sh
-kubectl apply -f /apply-jenknis/jenkins
+kubectl apply -f /apply-jenkins/jenkins
 ```
 - Check Logs to get password of jenkins to configure
 ```sh
